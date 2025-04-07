@@ -1,0 +1,17 @@
+File: lib/main.dart
+Code:
+void main() {
+  runApp(MyApp());
+}
+
+File: lib/screens/login_screen.dart
+Code:
+class LoginScreen extends StatelessWidget {
+  ...
+}
+
+File: lib/screens/widgets/input_field.dart
+Code:
+class InputField extends StatelessWidget {
+  ...
+}

@@ -1,0 +1,18 @@
+{
+    "main.dart": {
+      "description": "Entry point of Flutter app",
+      "classes": ["MyApp"],
+      "depends_on": ["screens/login_screen.dart"]
+    },
+    "screens/login_screen.dart": {
+      "description": "UI for login",
+      "classes": ["LoginScreen"],
+      "uses_functions_from": ["services/auth_service.dart"]
+    },
+    "services/auth_service.dart": {
+      "description": "Handles login API",
+      "functions": ["loginUser"],
+      "used_by": ["screens/login_screen.dart"]
+    }
+  }
+  
